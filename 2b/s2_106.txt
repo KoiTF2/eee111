@@ -1,0 +1,16 @@
+sides = int(input("sides: "))
+
+name = ""
+if sides == 3:
+    name = "triangle"
+elif sides == 4:
+    name = "quadrilateral"
+elif sides == 5:
+    name = "pentagon"
+elif sides == 6:
+    name = "hexagon"
+
+if name == "":
+    print("not supported")
+else:
+    print(f"it's a {name}")

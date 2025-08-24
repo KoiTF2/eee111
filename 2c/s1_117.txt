@@ -1,0 +1,23 @@
+baby_price = 00.00
+child_price = 14.00
+adult_price = 23.00
+senior_price = 18.00
+
+total = 0
+line = input()
+
+while line:
+    age = int(line)
+
+    if age <= 2:
+        total += baby_price
+    elif age <= 12:
+        total += child_price
+    elif age <= 64:
+        total += adult_price
+    else:
+        total += senior_price
+
+    line = input()
+
+print(f"total: ${total}")

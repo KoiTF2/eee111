@@ -1,0 +1,8 @@
+letter = input("letter: ")
+
+if letter == "a" or letter == "e" or letter == "i" or letter == "o" or letter == "u":
+    print("vowel")
+elif letter == "y":
+    print("sometimes a vowel or consonant")
+else:
+    print("consonant")

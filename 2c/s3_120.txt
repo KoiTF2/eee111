@@ -1,0 +1,16 @@
+new_base = 2
+num = int(input("non-negative integer: "))
+result = ""
+a = num
+
+# loop body runs once
+b = a % new_base
+result = str(b) + result
+a = a // new_base
+# first run done
+while a > 0:
+    b = a % new_base
+    result = str(b) + result
+    a = a // new_base
+
+print(result)

@@ -1,0 +1,9 @@
+cost = float(input("meal cost: "))
+tax_rate = 0.05
+tip_rate = 0.18
+
+tax = cost * tax_rate
+tip = cost * tip_rate
+total = cost + tax + tip
+
+print(f"tax = {tax}\ntip = {tip}\ntotal = {total}")
