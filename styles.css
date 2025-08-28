@@ -21,7 +21,8 @@ body {
 }
 
 img {
-    width: clamp(300px, 90vw, 700px);
+    /* width: clamp(300px, 90vw, 700px); */
+    width: clamp(200px, 60vw, 466px);  /* for tweaking */
 }
 
 input {
